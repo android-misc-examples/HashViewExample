@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="it.pgp.hashviewexample.MainActivity">
+
+    <Button
+        android:id="@+id/showHv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show HashView" />
+
+    <Button
+        android:id="@+id/showMultiHv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show multihashview" />
+
+    <Button
+        android:id="@+id/queryHs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Query hashview number" />
+
+    <Button
+        android:id="@+id/showPopupWindow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show popup window" />
+</LinearLayout>
